@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Den magiske kule</title>
+    
+    <!--Google font with JavaScript-->
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: { families: [ 'Architects+Daughter::latin' ] }
+        };
+        
+        (function() {
+            var wf = document.createElement('script');
+            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })(); 
+    </script>
+</head>
+
+<body>
+    
+    <div id="container">
+        <div id="magicBall"><!--The ball-->
+            <h1 id="txt"></h1><!--Text inside of magicBall-->
+        </div>
+    </div>
+    
+    <!----JavaScript---->
+    <script src="js/magicBall.js"></script>
+    
+</body>
+</html>
